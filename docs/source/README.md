@@ -1,3 +1,0 @@
-# ndmg
-## and
-### data

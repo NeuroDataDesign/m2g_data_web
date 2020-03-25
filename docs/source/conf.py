@@ -34,7 +34,7 @@ author = 'Chuankai_Luo'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 
-extensions = ['sphinx.ext.autodoc', 'numpydoc', 'sphinx_markdown', 'sphinx_rtd_theme']
+extensions = ['sphinx.ext.autodoc', 'numpydoc', 'sphinx_markdown', 'recommonmark']
 
 html_copy_source = True
 
