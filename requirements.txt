@@ -5,4 +5,3 @@ nilearn
 sklearn
 dipy
 networkx
-multiprocessing
