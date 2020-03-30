@@ -5,7 +5,7 @@
 
 
 ******************
-ndd_data Overview
+m2g
 ******************
 
 
@@ -14,14 +14,27 @@ Understanding the variability in brain connectivity is essential to understandin
 
 The m2g python package, from our Johns Hopkins Open Connectome Project, is the first end to end MRI connectome estimation pipeline that can be run and has been tested in large MRI datasets. Using this package we have generated a large set of standardized connectomes () using publically available, single shell dMRI data. This large amount of connectomes is available at ___ can be directly used by researchers to utilize. 
 
+.. toctree::
+   :caption: Tutorials
+   :maxdepth: 3
+   
+   tutorials/install
+   tutorials/funcref
 
 .. toctree::
-   :maxdepth: 1
+   :caption: Pipeline Overview
+   :maxdepth: 2
+
+   pipeline/diffusion
+   pipeline/functional
+
+.. toctree::
+   :maxdepth: 3
    :caption: Datasets
    
-   BNU1
-   BNU2
-   SWU1
+   datasets/BNU1
+   datasets/BNU2
+   datasets/SWU1
    
 
 .. toctree::
@@ -29,8 +42,6 @@ The m2g python package, from our Johns Hopkins Open Connectome Project, is the f
    :caption: License
    
    License
-
-
 
 .. toctree::
    :maxdepth: 1

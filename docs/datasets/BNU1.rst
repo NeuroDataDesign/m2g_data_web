@@ -35,10 +35,9 @@ Download each sample separately
 -------------------------------------
 
 .. toctree::
-   :maxdepth: 1
-
+   :maxdepth: 2
    
-   sub-0025864
+   subs/sub-0025864
 
 
 
