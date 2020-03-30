@@ -4,22 +4,36 @@
    contain the root `toctree` directive.
 
 ******************
-sub-0025864
+BNU1
 ******************
 
-sub-0025864 from BNU1
 
-connectomic picture
-----------------------------------------
-.. image:: picture/BNU1/BNU1pict.png
+Overview
+-----------
 
+Connectivity-based Brain Imaging Research Database (C-BIRD) at BNU
 
-download link
-----------------------------------------
+See www.xxxxxxx for the website of the original dataset
+
+Download all data at once
+-------------------------------------
+
 Download from S3
 The most recently published snapshot can be downloaded from S3. This method is best for larger datasets or unstable connections. This example uses AWS CLI.
 
 **aws s3 sync --no-sign-request s3://openneuro.org/ds000201 ds000201-download/**
+
+
+one conncetomic picture from BNU1
+----------------------------------------
+.. image:: BNU1pict.png
+
+
+
+Download each sample separately
+-------------------------------------
+
+sub-000201   **aws s3 sync --no-sign-request s3://openneuro.org/ds000201 ds000201-download/**
 
 
 
