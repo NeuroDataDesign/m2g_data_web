@@ -32,7 +32,7 @@ The most recently published snapshot can be downloaded from S3. This method is b
 
 
 
-.. _a link: https://aws.amazon.com/cli/?nc1=h_ls/
+.. _AWS CLI: https://aws.amazon.com/cli/?nc1=h_ls/
 
 (some instructions to explain how to use S3)
 
