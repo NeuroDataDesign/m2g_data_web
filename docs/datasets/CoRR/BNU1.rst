@@ -17,10 +17,15 @@ See http://fcon_1000.projects.nitrc.org/indi/CoRR/html/bnu_1.html for the websit
 
 **Sample Connectome**
 
-sub-0025866_ses-1
 
-.. image:: ../../_static/connectomic_pic/BNU1pict.png
-	:width: 800 
+.. figure:: ../../_static/connectomic_pic/BNU1pict.png
+   :scale: 50 %
+   :alt: map to buried treasure
+
+   BNU1-sub-0025866_ses-1-connectome
+
+
+
 
 
 All Data Download Instructions
