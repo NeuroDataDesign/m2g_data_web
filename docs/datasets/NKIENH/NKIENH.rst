@@ -15,26 +15,30 @@ Enhanced Nathan Kline Institute - Rockland Sample
 
 See http://fcon_1000.projects.nitrc.org/indi/enhanced/# for the website of the original dataset
 
-Download all data at once
+**Sample Connectome**
+
+.. image:: ../docs/_static/connectomic_pic/BNU1pict.png
+
+
+
+All Data Download Instructions
 -------------------------------------
 
 Download from S3
+
 The most recently published snapshot can be downloaded from S3. This method is best for larger datasets or unstable connections. This example uses AWS CLI.
+
+(some instructions to explain how to use S3)
 
 **aws s3 sync --no-sign-request s3://openneuro.org/ds000201 ds000201-download/**
 
 
-one conncetomic picture from BNU1
+
+
+Single Sample Download Instructions
 ----------------------------------------
-.. image:: ../_static/connectomic_pic/BNU1pict.png
 
-
-
-Download each sample separately
--------------------------------------
-
-sub-000201   **aws s3 sync --no-sign-request s3://openneuro.org/ds000201 ds000201-download/**
-
+sub-000201   : **aws s3 sync --no-sign-request s3://openneuro.org/ds000201 ds000201-download/**
 
 
 

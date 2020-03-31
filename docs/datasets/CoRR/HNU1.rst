@@ -8,33 +8,13 @@ HNU1
 ******************
 
 
+
 Overview
 -----------
 
 Connectivity-based Brain Imaging Research Database (C-BIRD) at HNU
 
 See http://fcon_1000.projects.nitrc.org/indi/CoRR/html/hnu_1.html for the website of the original dataset
-
-Download all data at once
--------------------------------------
-
-Download from S3
-The most recently published snapshot can be downloaded from S3. This method is best for larger datasets or unstable connections. This example uses AWS CLI.
-
-**aws s3 sync --no-sign-request s3://openneuro.org/ds000201 ds000201-download/**
-
-
-one conncetomic picture from BNU1
-----------------------------------------
-.. image:: ../_static/connectomic_pic/BNU1pict.png
-
-
-
-Download each sample separately
--------------------------------------
-
-sub-000201   **aws s3 sync --no-sign-request s3://openneuro.org/ds000201 ds000201-download/**
-
 
 
 
