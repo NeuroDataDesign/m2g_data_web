@@ -32,9 +32,9 @@ The m2g python package, from our Johns Hopkins Open Connectome Project, is the f
    :maxdepth: 3
    :caption: Datasets
    
-   datasets/CoRR/BNU1
-   datasets/CoRR/BNU2
-   datasets/CoRR/SWU1
+   datasets/CoRR/BNU1/BNU1
+   datasets/CoRR/BNU2/BNU2
+   datasets/CoRR/SWU1/SWU1
    datasets/openfMRI/some sample
 
 .. toctree::
