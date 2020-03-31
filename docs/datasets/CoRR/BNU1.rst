@@ -28,11 +28,9 @@ All Data Download Instructions
 
 Download from S3
 
-The most recently published snapshot can be downloaded from S3. This method is best for larger datasets or unstable connections. This example uses AWS CLI.
+The most recently published snapshot can be downloaded from S3. This method is best for larger datasets or unstable connections. This example uses AWS CLI .. _AWS CLI: https://aws.amazon.com/cli/?nc1=h_ls/
 
 
-
-.. _AWS CLI: https://aws.amazon.com/cli/?nc1=h_ls/
 
 (some instructions to explain how to use S3)
 
