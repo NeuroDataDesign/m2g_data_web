@@ -20,7 +20,7 @@ See www.xxxxxxx for the website of the original dataset
 Datasets in CoRR
 ----------------------------------
 .. toctree::
-   :maxdepth:0
+   :maxdepth:1
    
    BNU1
    BNU2

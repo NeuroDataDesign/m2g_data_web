@@ -16,7 +16,7 @@ The m2g python package, from our Johns Hopkins Open Connectome Project, is the f
 
 .. toctree::
    :caption: Tutorials
-   :maxdepth: 3
+   :maxdepth: 2
    
    tutorials/install
    tutorials/funcref
@@ -29,7 +29,7 @@ The m2g python package, from our Johns Hopkins Open Connectome Project, is the f
    pipeline/functional
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Datasets
    
    datasets/CoRR/CoRR
