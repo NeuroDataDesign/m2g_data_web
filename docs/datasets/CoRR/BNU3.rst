@@ -20,6 +20,7 @@ See http://fcon_1000.projects.nitrc.org/indi/CoRR/html/bnu_3.html for the websit
 
 .. image:: ../../_static/connectomic_pic/BNU1pict.png
 	:width: 400
+	:align: center
 
 
 All Data Download Instructions
