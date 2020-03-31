@@ -17,7 +17,7 @@ See https://www.kennedykrieger.org/kirby-research-center#Kirby21 for the website
 
 **Sample Connectome**
 
-.. image:: ../docs/_static/connectomic_pic/BNU1pict.png
+.. image:: ../../_static/connectomic_pic/BNU1pict.png
 
 
 

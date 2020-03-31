@@ -17,7 +17,7 @@ See http://fcon_1000.projects.nitrc.org/indi/enhanced/# for the website of the o
 
 **Sample Connectome**
 
-.. image:: ../docs/_static/connectomic_pic/BNU1pict.png
+.. image:: ../../_static/connectomic_pic/BNU1pict.png
 
 
 
