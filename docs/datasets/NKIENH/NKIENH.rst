@@ -15,10 +15,12 @@ Enhanced Nathan Kline Institute - Rockland Sample
 
 See http://fcon_1000.projects.nitrc.org/indi/enhanced/# for the website of the original dataset
 
-**Sample Connectome**
+**Sample Connectome** from BNU1-sub-0025866_ses-1-connectome
 
-.. image:: ../../_static/connectomic_pic/BNU1pict.png
 
+.. image:: ../../_static/connectomic_pic/sub-0025866_ses-1_dwi_desikan_space-MNI152NLin6_res-2x2x2_connectome.png
+	:width: 400
+	:align: center
 
 
 All Data Download Instructions
@@ -32,13 +34,16 @@ The most recently published snapshot can be downloaded from S3. This method is b
 
 **aws s3 sync --no-sign-request s3://openneuro.org/ds000201 ds000201-download/**
 
-
+(link above is fake, we will do it later)
 
 
 Single Sample Download Instructions
 ----------------------------------------
 
 sub-000201   : **aws s3 sync --no-sign-request s3://openneuro.org/ds000201 ds000201-download/**
+
+(link above is fake, we will do it later)
+
 
 
 
