@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 ******************
-BNU1
+BNU3
 ******************
 
 
@@ -13,7 +13,7 @@ Overview
 
 Connectivity-based Brain Imaging Research Database (C-BIRD) at BNU
 
-See http://fcon_1000.projects.nitrc.org/indi/CoRR/html/bnu_1.html for the website of the original dataset
+See http://fcon_1000.projects.nitrc.org/indi/CoRR/html/bnu_3.html for the website of the original dataset
 
 Download all data at once
 -------------------------------------

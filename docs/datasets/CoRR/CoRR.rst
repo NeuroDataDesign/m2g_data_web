@@ -13,7 +13,7 @@ Overview
 
 Consortium for Reliability and Reproducibility (CoRR)
 
-See www.xxxxxxx for the website of the original dataset
+See http://fcon_1000.projects.nitrc.org/indi/CoRR/html/index.html for the website of the original dataset
 
 
 
@@ -23,8 +23,13 @@ Datasets in CoRR
    :maxdepth:1
    
    BNU1
-   BNU2
-   SWU1
+   BNU3
+   HNU1
+   MRN1313
+   NKI1
+   SWU4
+   Templeton114
+   Templeton255	
 
 
 

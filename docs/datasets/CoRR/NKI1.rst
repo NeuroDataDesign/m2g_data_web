@@ -4,16 +4,15 @@
    contain the root `toctree` directive.
 
 ******************
-BNU1
+NKI1
 ******************
-
 
 Overview
 -----------
 
-Connectivity-based Brain Imaging Research Database (C-BIRD) at BNU
+NKI - Nathan Kline Institute (Milham, Colcombe)
 
-See http://fcon_1000.projects.nitrc.org/indi/CoRR/html/bnu_1.html for the website of the original dataset
+See http://fcon_1000.projects.nitrc.org/indi/CoRR/html/nki_1.html for the website of the original dataset
 
 Download all data at once
 -------------------------------------
@@ -34,7 +33,6 @@ Download each sample separately
 -------------------------------------
 
 sub-000201   **aws s3 sync --no-sign-request s3://openneuro.org/ds000201 ds000201-download/**
-
 
 
 

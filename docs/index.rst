@@ -34,7 +34,9 @@ The m2g python package, from our Johns Hopkins Open Connectome Project, is the f
    
    datasets/CoRR/CoRR
    datasets/openfMRI/sssss
-
+   datasets/KKI/KKI2009
+   datasets/NKIENH/NKIENH
+   
 .. toctree::
    :maxdepth: 1
    :caption: License
