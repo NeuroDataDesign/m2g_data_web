@@ -15,14 +15,13 @@ Connectivity-based Brain Imaging Research Database (C-BIRD) at BNU
 
 See http://fcon_1000.projects.nitrc.org/indi/CoRR/html/bnu_1.html for the website of the original dataset
 
-**Sample Connectome**
+**Sample Connectome** from BNU1-sub-0025866_ses-1-connectome
 
 
 .. figure:: ../../_static/connectomic_pic/BNU1pict.png
    :scale: 40 %
-   :alt: map to buried treasure
-   :align: center
-   BNU1-sub-0025866_ses-1-connectome
+
+
 
 
 
