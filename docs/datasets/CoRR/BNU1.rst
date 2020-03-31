@@ -30,6 +30,10 @@ Download from S3
 
 The most recently published snapshot can be downloaded from S3. This method is best for larger datasets or unstable connections. This example uses AWS CLI.
 
+
+
+.. _a link: https://aws.amazon.com/cli/?nc1=h_ls/
+
 (some instructions to explain how to use S3)
 
 **aws s3 sync --no-sign-request s3://openneuro.org/ds000201 ds000201-download/**
