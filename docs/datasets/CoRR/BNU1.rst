@@ -26,7 +26,7 @@ The most recently published snapshot can be downloaded from S3. This method is b
 
 one conncetomic picture from BNU1
 ----------------------------------------
-.. image:: ../_static/connectomic pic/BNU1pict.png
+.. image:: ../_static/connectomic_pic/BNU1pict.png
 
 
 
