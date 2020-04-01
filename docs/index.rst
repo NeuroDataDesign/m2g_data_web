@@ -47,7 +47,7 @@ The m2g python package, from our Johns Hopkins Open Connectome Project, is the f
    :maxdepth: 1
    :caption: Useful Links
 
-   ndmg @ GitHub <http://www.github.com/neurodata/ndmg/>
-   ndmg @ PyPI <https://pypi.org/project/ndmg/>
-   Issue Tracker <https://github.com/neurodata/ndmg/issues>
+   m2g @ GitHub <https://github.com/neurodata/m2g>
+   m2g @ PyPI <https://pypi.org/project/m2g/>
+   Issue Tracker <https://github.com/neurodata/m2g/issues>
    
