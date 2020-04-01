@@ -28,10 +28,10 @@ All Data Download Instructions
 
 Download from S3
 
-The most recently published snapshot can be downloaded from S3. This method is best for larger datasets or unstable connections. This example uses AWS CLI: https://aws.amazon.com/cli/?nc1=h_ls/
+The most recently published snapshot can be downloaded from S3. This method is best for larger datasets or unstable connections. This example uses AWS CLI: https://aws.amazon.com/cli/?nc1=h_ls/ ::
 
 
-**aws s3 sync --no-sign-request s3://openneuro.org/ds000201 ds000201-download/**
+	aws s3 sync --no-sign-request s3://openneuro.org/ds000201 ds000201-download/
 
 (link above is fake, we will do it later)
 
@@ -39,7 +39,9 @@ The most recently published snapshot can be downloaded from S3. This method is b
 Single Sample Download Instructions
 ----------------------------------------
 
-sub-000201   : **aws s3 sync --no-sign-request s3://openneuro.org/ds000201 ds000201-download/**
+sub-000201   ::
+
+	aws s3 sync --no-sign-request s3://openneuro.org/ds000201 ds000201-download/
 
 (link above is fake, we will do it later)
 
