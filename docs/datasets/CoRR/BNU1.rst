@@ -42,6 +42,18 @@ Single Sample Download Instructions
 sub-000201   ::
     
     aws s3 sync --no-sign-request s3://openneuro.org/ds000201 ds000201-download/
+    
+sub-000202   ::
+    
+    aws s3 sync --no-sign-request s3://openneuro.org/ds000201 ds000201-download/
+    
+sub-000203   ::
+    
+    aws s3 sync --no-sign-request s3://openneuro.org/ds000201 ds000201-download/
+    
+sub-000204   ::
+    
+    aws s3 sync --no-sign-request s3://openneuro.org/ds000201 ds000201-download/
 
 (link above is fake, we will do it later)
 
