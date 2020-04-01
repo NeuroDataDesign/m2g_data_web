@@ -8,8 +8,8 @@ CoRR
 ******************
 
 
-Overview
------------
+**Overview**
+
 
 Consortium for Reliability and Reproducibility (CoRR)
 
@@ -17,10 +17,10 @@ See http://fcon_1000.projects.nitrc.org/indi/CoRR/html/index.html for the websit
 
 
 
-Datasets in CoRR
-----------------------------------
+
 .. toctree::
    :maxdepth:1
+   :caption: Datasets in CoRR
    
    BMB1
    BNU1
