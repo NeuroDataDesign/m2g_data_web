@@ -36,6 +36,8 @@ The m2g python package, from our Johns Hopkins Open Connectome Project, is the f
    datasets/openfMRI/sssss
    datasets/KKI/KKI2009
    datasets/NKIENH/NKIENH
+   datasets/ABIDEII/ABIDEII
+   
    
 .. toctree::
    :maxdepth: 1
