@@ -28,7 +28,7 @@ The most recently published snapshot can be downloaded from S3. This method is b
 
 Functional MRI result::
 
-    aws s3 sync --no-sign-request s3://ndmg-data/IPCAS1/IPCAS1-m2g-func-04-15-20
+    aws s3 sync --no-sign-request s3://ndmg-data/IPCAS1/IPCAS1-m2g-func-04-15-20 .
 
 
 
