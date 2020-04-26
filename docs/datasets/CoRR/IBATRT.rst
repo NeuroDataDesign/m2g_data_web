@@ -25,14 +25,23 @@ Download from S3
 
 The most recently published snapshot can be downloaded from S3. This method is best for larger datasets or unstable connections. This example uses AWS CLI: https://aws.amazon.com/cli/?nc1=h_ls/.::
 
+	
+Functional MRI result::
+
 
     aws s3 sync --no-sign-request s3://ndmg-data/IBATRT/IBATRT-m2g-func-04-15-20 .
 
-(link above is fake, we will do it later)
+
+
 
 
 Single Sample Download Instructions
 ----------------------------------------
+
+
+**Functional MRI single sample**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 sub-0027223   ::	 
 
@@ -154,7 +163,6 @@ sub-0027252   ::
 
 	aws s3 sync --no-sign-request s3://ndmg-data/IBATRT/IBATRT-m2g-func-04-15-20/sub-0027252 .
 
-	aws s3 sync --no-sign-request s3://ndmg-data/IBATRT/IBATRT-m2g-func-04-15-20/sub-0025427 .
 sub-0027253   ::	 
 
 	aws s3 sync --no-sign-request s3://ndmg-data/IBATRT/IBATRT-m2g-func-04-15-20/sub-0027253 .
