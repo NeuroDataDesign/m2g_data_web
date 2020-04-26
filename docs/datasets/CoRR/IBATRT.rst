@@ -34,11 +34,17 @@ The most recently published snapshot can be downloaded from S3. This method is b
 Single Sample Download Instructions
 ----------------------------------------
 
-sub-000201   ::
-    
-    aws s3 sync --no-sign-request s3://openneuro.org/ds000201 ds000201-download/
+sub-0025427   ::	 
 
-(link above is fake, we will do it later)
+aws s3 sync --no-sign-request s3://ndmg-data/BNU1/BNU1-2-8-20-m2g_staging-native-csa-det/sub-0025427 .
+
+sub-0025428   ::	 
+
+aws s3 sync --no-sign-request s3://ndmg-data/BNU1/BNU1-2-8-20-m2g_staging-native-csa-det/sub-0025428 .
+
+sub-0025429   ::	 
+
+aws s3 sync --no-sign-request s3://ndmg-data/BNU1/BNU1-2-8-20-m2g_staging-native-csa-det/sub-0025429 .
 
 
 
