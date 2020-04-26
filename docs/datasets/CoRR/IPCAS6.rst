@@ -44,9 +44,9 @@ Single Sample Download Instructions
 
 sub-0026044   ::	
 
-	aws s3 sync --no-sign-request s3://ndmg-data/IPCAS_6/IPCAS_6-m2g-func-04-15-20/sub-0006045 .
+	aws s3 sync --no-sign-request s3://ndmg-data/IPCAS_6/IPCAS_6-m2g-func-04-15-20/sub-0026044 .
 	
 sub-0026045   ::	
 
-	aws s3 sync --no-sign-request s3://ndmg-data/IPCAS_6/IPCAS_6-m2g-func-04-15-20/sub-0006046 .
+	aws s3 sync --no-sign-request s3://ndmg-data/IPCAS_6/IPCAS_6-m2g-func-04-15-20/sub-0026045 .
 
