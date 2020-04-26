@@ -15,12 +15,6 @@ IPCAS - Institute of Psychology, Chinese Academy of Sciences
 
 See http://fcon_1000.projects.nitrc.org/indi/CoRR/html/ipcas_4.html for the website of the original dataset
 
-**Sample Connectome** from BNU1-sub-0025866_ses-1-connectome
-
-
-.. image:: ../../_static/connectomic_pic/sub-0025866_ses-1_dwi_desikan_space-MNI152NLin6_res-2x2x2_connectome.png
-	:width: 400
-	:align: center
 
 
 All Data Download Instructions
@@ -28,24 +22,102 @@ All Data Download Instructions
 
 Download from S3
 
-The most recently published snapshot can be downloaded from S3. This method is best for larger datasets or unstable connections. This example uses AWS CLI: https://aws.amazon.com/cli/?nc1=h_ls/.::
+The most recently published snapshot can be downloaded from S3. This method is best for larger datasets or unstable connections. This example uses AWS CLI: https://aws.amazon.com/cli/?nc1=h_ls/
 
 
-    aws s3 sync --no-sign-request s3://openneuro.org/ds000201 ds000201-download/
+Functional MRI result::
 
-(link above is fake, we will do it later)
+    aws s3 sync --no-sign-request s3://ndmg-data/IPCAS4/IPCAS4-m2g-func-04-15-21 .
+
+
+
+
 
 
 Single Sample Download Instructions
 ----------------------------------------
 
-sub-000201   ::
-    
-    aws s3 sync --no-sign-request s3://openneuro.org/ds000201 ds000201-download/
 
-(link above is fake, we will do it later)
+**Functional MRI single sample**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
+sub-0026190   ::	
 
+	aws s3 sync --no-sign-request s3://ndmg-data/IPCAS4/IPCAS4-m2g-func-04-15-21/sub-0026190 .
+	
+sub-0026191   ::	
 
+	aws s3 sync --no-sign-request s3://ndmg-data/IPCAS4/IPCAS4-m2g-func-04-15-21/sub-0026191 .
+	
+sub-0026192   ::	
 
+	aws s3 sync --no-sign-request s3://ndmg-data/IPCAS4/IPCAS4-m2g-func-04-15-21/sub-0026192 .
+	
+sub-0026193   ::	
+
+	aws s3 sync --no-sign-request s3://ndmg-data/IPCAS4/IPCAS4-m2g-func-04-15-21/sub-0026193 .
+	
+sub-0026194   ::	
+
+	aws s3 sync --no-sign-request s3://ndmg-data/IPCAS4/IPCAS4-m2g-func-04-15-21/sub-0026194 .
+	
+sub-0026195   ::	
+
+	aws s3 sync --no-sign-request s3://ndmg-data/IPCAS4/IPCAS4-m2g-func-04-15-21/sub-0026195 .
+	
+sub-0026196   ::	
+
+	aws s3 sync --no-sign-request s3://ndmg-data/IPCAS4/IPCAS4-m2g-func-04-15-21/sub-0026196 .
+	
+sub-0026197   ::	
+
+	aws s3 sync --no-sign-request s3://ndmg-data/IPCAS4/IPCAS4-m2g-func-04-15-21/sub-0026197 .
+	
+sub-0026198   ::	
+
+	aws s3 sync --no-sign-request s3://ndmg-data/IPCAS4/IPCAS4-m2g-func-04-15-21/sub-0026198 .
+	
+sub-0026199   ::	
+
+	aws s3 sync --no-sign-request s3://ndmg-data/IPCAS4/IPCAS4-m2g-func-04-15-21/sub-0026199 .
+	
+sub-0026200   ::	
+
+	aws s3 sync --no-sign-request s3://ndmg-data/IPCAS4/IPCAS4-m2g-func-04-15-21/sub-0026200 .
+	
+sub-0026201   ::	
+
+	aws s3 sync --no-sign-request s3://ndmg-data/IPCAS4/IPCAS4-m2g-func-04-15-21/sub-0026201 .
+	
+sub-0026202   ::	
+
+	aws s3 sync --no-sign-request s3://ndmg-data/IPCAS4/IPCAS4-m2g-func-04-15-21/sub-0026202 .
+	
+sub-0026203   ::	
+
+	aws s3 sync --no-sign-request s3://ndmg-data/IPCAS4/IPCAS4-m2g-func-04-15-21/sub-0026203 .
+	
+sub-0026204   ::	
+
+	aws s3 sync --no-sign-request s3://ndmg-data/IPCAS4/IPCAS4-m2g-func-04-15-21/sub-0026204 .
+	
+sub-0026205   ::	
+
+	aws s3 sync --no-sign-request s3://ndmg-data/IPCAS4/IPCAS4-m2g-func-04-15-21/sub-0026205 .
+	
+sub-0026206   ::	
+
+	aws s3 sync --no-sign-request s3://ndmg-data/IPCAS4/IPCAS4-m2g-func-04-15-21/sub-0026206 .
+	
+sub-0026207   ::	
+
+	aws s3 sync --no-sign-request s3://ndmg-data/IPCAS4/IPCAS4-m2g-func-04-15-21/sub-0026207 .
+	
+sub-0026208   ::	
+
+	aws s3 sync --no-sign-request s3://ndmg-data/IPCAS4/IPCAS4-m2g-func-04-15-21/sub-0026208 .
+	
+sub-0026209   ::	
+
+	aws s3 sync --no-sign-request s3://ndmg-data/IPCAS4/IPCAS4-m2g-func-04-15-21/sub-0026209 .
