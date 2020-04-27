@@ -15,10 +15,10 @@ SWU 4 - Southwest University
 
 See http://fcon_1000.projects.nitrc.org/indi/CoRR/html/swu_4.html for the website of the original dataset
 
-**Sample Connectome** from sub-0025866_ses-1_dwi_desikan_space-MNI152NLin6_res-2x2x2_connectome.png
+**Sample Connectome** from sub-0025821_ses-1_dwi_desikan_space-MNI152NLin6_res-2x2x2_connectome.png
 
 
-.. image:: ../../_static/connectomic_pic/BNU1-sub-0025866_ses-1_dwi_desikan_space-MNI152NLin6_res-2x2x2_connectome.png
+.. image:: ../../_static/connectomic_pic/SWU4-sub-0025821_ses-1_dwi_desikan_space-MNI152NLin6_res-2x2x2_connectome
 	:width: 400
 	:align: center
 
@@ -50,7 +50,7 @@ Single Sample Download Instructions
     
     aws s3 sync --no-sign-request s3://ndmg-data/SWU4/SWU4-2-8-20-m2g_staging-native-csa-det/<subject_number> <your_local_direction>
 
-example: aws s3 sync --no-sign-request s3://ndmg-data/SWU4/SWU4-2-8-20-m2g_staging-native-csa-det/sub-0025864 .
+example: aws s3 sync --no-sign-request s3://ndmg-data/SWU4/SWU4-2-8-20-m2g_staging-native-csa-det/sub-0025629 .
 
 ======	==============================
 order	subject_number
