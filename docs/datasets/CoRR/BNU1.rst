@@ -51,10 +51,10 @@ Single Sample Download Instructions
 
 
 **Diffusion MRI single sample**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-:dudir:`table` .
+
+:dudir:`**Diffusion MRI single sample**` .
 
 =====	==============================
 order	subject_number
