@@ -25,10 +25,12 @@ Download from S3
 The most recently published snapshot can be downloaded from S3. This method is best for larger datasets or unstable connections. This example uses AWS CLI: https://aws.amazon.com/cli/?nc1=h_ls/
 
 
-Functional MRI result::
+**Functional MRI result**::
 
-    aws s3 sync --no-sign-request s3://ndmg-data/IPCAS_8/IPCAS_8-m2g-func-04-15-20 .
 
+    aws s3 sync --no-sign-request s3://ndmg-data/IPCAS_8/IPCAS_8-m2g-func-04-15-20 <your_local_direction>
+	
+example: aws s3 sync --no-sign-request s3://ndmg-data/IPCAS_8/IPCAS_8-m2g-func-04-15-20 .
 
 
 
@@ -38,59 +40,28 @@ Single Sample Download Instructions
 ----------------------------------------
 
 
-**Functional MRI single sample**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Functional MRI single sample**::
+    
+    aws s3 sync --no-sign-request s3://ndmg-data/IPCAS_8/IPCAS_8-m2g-func-04-15-20/<subject_number> <your_local_direction>
+
+example: aws s3 sync --no-sign-request s3://ndmg-data/IPCAS_8/IPCAS_8-m2g-func-04-15-20/sub-0025586 .
 
 
-sub-0025586   ::	
-
-	aws s3 sync --no-sign-request s3://ndmg-data/IPCAS_8/IPCAS_8-m2g-func-04-15-20/sub-0025586 .
-	
-sub-0025587   ::	
-
-	aws s3 sync --no-sign-request s3://ndmg-data/IPCAS_8/IPCAS_8-m2g-func-04-15-20/sub-0025587 .
-	
-sub-0025588   ::	
-
-	aws s3 sync --no-sign-request s3://ndmg-data/IPCAS_8/IPCAS_8-m2g-func-04-15-20/sub-0025588 .
-	
-sub-0025589   ::	
-
-	aws s3 sync --no-sign-request s3://ndmg-data/IPCAS_8/IPCAS_8-m2g-func-04-15-20/sub-0025589 .
-	
-sub-0025590   ::	
-
-	aws s3 sync --no-sign-request s3://ndmg-data/IPCAS_8/IPCAS_8-m2g-func-04-15-20/sub-0025590 .
-	
-sub-0025591   ::	
-
-	aws s3 sync --no-sign-request s3://ndmg-data/IPCAS_8/IPCAS_8-m2g-func-04-15-20/sub-0025591 .
-	
-sub-0025592   ::	
-
-	aws s3 sync --no-sign-request s3://ndmg-data/IPCAS_8/IPCAS_8-m2g-func-04-15-20/sub-0025592 .
-	
-sub-0025593   ::	
-
-	aws s3 sync --no-sign-request s3://ndmg-data/IPCAS_8/IPCAS_8-m2g-func-04-15-20/sub-0025593 .
-	
-sub-0025594   ::	
-
-	aws s3 sync --no-sign-request s3://ndmg-data/IPCAS_8/IPCAS_8-m2g-func-04-15-20/sub-0025594 .
-	
-sub-0025595   ::	
-
-	aws s3 sync --no-sign-request s3://ndmg-data/IPCAS_8/IPCAS_8-m2g-func-04-15-20/sub-0025595 .
-	
-sub-0025596   ::	
-
-	aws s3 sync --no-sign-request s3://ndmg-data/IPCAS_8/IPCAS_8-m2g-func-04-15-20/sub-0025596 .
-	
-sub-0025597   ::	
-
-	aws s3 sync --no-sign-request s3://ndmg-data/IPCAS_8/IPCAS_8-m2g-func-04-15-20/sub-0025597 .
-	
-sub-0025598   ::	
-
-	aws s3 sync --no-sign-request s3://ndmg-data/IPCAS_8/IPCAS_8-m2g-func-04-15-20/sub-0025598 .
+======	==============================
+order	subject_number
+======	==============================
+1    	sub-0025586
+2    	sub-0025587
+3    	sub-0025588
+4    	sub-0025589
+5    	sub-0025590
+6    	sub-0025591
+7    	sub-0025592
+8    	sub-0025593
+9		sub-0025594
+10    	sub-0025595
+11    	sub-0025596
+12    	sub-0025597
+13    	sub-0025598
+======	==============================
 
