@@ -26,139 +26,58 @@ Download from S3
 The most recently published snapshot can be downloaded from S3. This method is best for larger datasets or unstable connections. This example uses AWS CLI: https://aws.amazon.com/cli/?nc1=h_ls/
 
 
-Functional MRI result::
-
-    aws s3 sync --no-sign-request s3://ndmg-data/JHNU_bids/JHNU_bids-m2g-func-04-15-20 .
+**Functional MRI result**::
 
 
+    aws s3 sync --no-sign-request s3://ndmg-data/JHNU_bids/JHNU_bids-m2g-func-04-15-20 <your_local_direction>
+	
+example: aws s3 sync --no-sign-request s3://ndmg-data/JHNU_bids/JHNU_bids-m2g-func-04-15-20 .
 
-
+    
 
 
 Single Sample Download Instructions
 ----------------------------------------
 
 
-**Functional MRI single sample**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Functional MRI single sample**::
+    
+    aws s3 sync --no-sign-request s3://ndmg-data/JHNU_bids/JHNU_bids-m2g-func-04-15-20/<subject_number> <your_local_direction>
+
+example: aws s3 sync --no-sign-request s3://ndmg-data/JHNU_bids/JHNU_bids-m2g-func-04-15-20/sub-0025599 .
 
 
-sub-0025599   ::	
-
-	aws s3 sync --no-sign-request s3://ndmg-data/JHNU_bids/JHNU_bids-m2g-func-04-15-20/sub-0025599 .
-	
-sub-0025600   ::	
-
-	aws s3 sync --no-sign-request s3://ndmg-data/JHNU_bids/JHNU_bids-m2g-func-04-15-20/sub-0025600 .
-	
-sub-0025601   ::	
-
-	aws s3 sync --no-sign-request s3://ndmg-data/JHNU_bids/JHNU_bids-m2g-func-04-15-20/sub-0025601 .
-	
-sub-0025602   ::	
-
-	aws s3 sync --no-sign-request s3://ndmg-data/JHNU_bids/JHNU_bids-m2g-func-04-15-20/sub-0025602 .
-	
-sub-0025603   ::	
-
-	aws s3 sync --no-sign-request s3://ndmg-data/JHNU_bids/JHNU_bids-m2g-func-04-15-20/sub-0025603 .
-	
-sub-0025604   ::	
-
-	aws s3 sync --no-sign-request s3://ndmg-data/JHNU_bids/JHNU_bids-m2g-func-04-15-20/sub-0025604 .
-	
-sub-0025605   ::	
-
-	aws s3 sync --no-sign-request s3://ndmg-data/JHNU_bids/JHNU_bids-m2g-func-04-15-20/sub-0025605 .
-	
-sub-0025606   ::	
-
-	aws s3 sync --no-sign-request s3://ndmg-data/JHNU_bids/JHNU_bids-m2g-func-04-15-20/sub-0025606 .
-	
-sub-0025607   ::	
-
-	aws s3 sync --no-sign-request s3://ndmg-data/JHNU_bids/JHNU_bids-m2g-func-04-15-20/sub-0025607 .
-	
-sub-0025608   ::	
-
-	aws s3 sync --no-sign-request s3://ndmg-data/JHNU_bids/JHNU_bids-m2g-func-04-15-20/sub-0025608 .
-	
-sub-0025609   ::	
-
-	aws s3 sync --no-sign-request s3://ndmg-data/JHNU_bids/JHNU_bids-m2g-func-04-15-20/sub-0025609 .
-	
-sub-0025610   ::	
-
-	aws s3 sync --no-sign-request s3://ndmg-data/JHNU_bids/JHNU_bids-m2g-func-04-15-20/sub-0025610 .
-	
-sub-0025611   ::	
-
-	aws s3 sync --no-sign-request s3://ndmg-data/JHNU_bids/JHNU_bids-m2g-func-04-15-20/sub-0025611 .
-	
-sub-0025612   ::	
-
-	aws s3 sync --no-sign-request s3://ndmg-data/JHNU_bids/JHNU_bids-m2g-func-04-15-20/sub-0025612 .
-	
-sub-0025613   ::	
-
-	aws s3 sync --no-sign-request s3://ndmg-data/JHNU_bids/JHNU_bids-m2g-func-04-15-20/sub-0025613 .
-	
-sub-0025614   ::	
-
-	aws s3 sync --no-sign-request s3://ndmg-data/JHNU_bids/JHNU_bids-m2g-func-04-15-20/sub-0025614 .
-	
-sub-0025615   ::	
-
-	aws s3 sync --no-sign-request s3://ndmg-data/JHNU_bids/JHNU_bids-m2g-func-04-15-20/sub-0025615 .
-	
-sub-0025616   ::	
-
-	aws s3 sync --no-sign-request s3://ndmg-data/JHNU_bids/JHNU_bids-m2g-func-04-15-20/sub-0025616 .
-	
-sub-0025617   ::	
-
-	aws s3 sync --no-sign-request s3://ndmg-data/JHNU_bids/JHNU_bids-m2g-func-04-15-20/sub-0025617 .
-	
-sub-0025618   ::	
-
-	aws s3 sync --no-sign-request s3://ndmg-data/JHNU_bids/JHNU_bids-m2g-func-04-15-20/sub-0025618 .
-	
-sub-0025619   ::	
-
-	aws s3 sync --no-sign-request s3://ndmg-data/JHNU_bids/JHNU_bids-m2g-func-04-15-20/sub-0025619 .
-	
-sub-0025620   ::	
-
-	aws s3 sync --no-sign-request s3://ndmg-data/JHNU_bids/JHNU_bids-m2g-func-04-15-20/sub-0025620 .
-	
-sub-0025621   ::	
-
-	aws s3 sync --no-sign-request s3://ndmg-data/JHNU_bids/JHNU_bids-m2g-func-04-15-20/sub-0025621 .
-	
-sub-0025622   ::	
-
-	aws s3 sync --no-sign-request s3://ndmg-data/JHNU_bids/JHNU_bids-m2g-func-04-15-20/sub-0025622 .
-	
-sub-0025623   ::	
-
-	aws s3 sync --no-sign-request s3://ndmg-data/JHNU_bids/JHNU_bids-m2g-func-04-15-20/sub-0025623 .
-	
-sub-0025624   ::	
-
-	aws s3 sync --no-sign-request s3://ndmg-data/JHNU_bids/JHNU_bids-m2g-func-04-15-20/sub-0025624 .
-	
-sub-0025625   ::	
-
-	aws s3 sync --no-sign-request s3://ndmg-data/JHNU_bids/JHNU_bids-m2g-func-04-15-20/sub-0025625 .
-	
-sub-0025626   ::	
-
-	aws s3 sync --no-sign-request s3://ndmg-data/JHNU_bids/JHNU_bids-m2g-func-04-15-20/sub-0025626 .
-	
-sub-0025627   ::	
-
-	aws s3 sync --no-sign-request s3://ndmg-data/JHNU_bids/JHNU_bids-m2g-func-04-15-20/sub-0025627 .
-	
-sub-0025628   ::	
-
-	aws s3 sync --no-sign-request s3://ndmg-data/JHNU_bids/JHNU_bids-m2g-func-04-15-20/sub-0025628 .
+======	==============================
+order	subject_number
+======	==============================
+1    	sub-0025599
+2    	sub-0025600
+3    	sub-0025601
+4    	sub-0025602
+5    	sub-0025603
+6    	sub-0025604
+7    	sub-0025605
+8    	sub-0025606
+9		sub-0025607
+10    	sub-0025608
+11    	sub-0025609
+12    	sub-0025610
+13    	sub-0025611
+14    	sub-0025612
+15    	sub-0025613
+16    	sub-0025614
+17    	sub-0025615
+18    	sub-0025616
+19		sub-0025617
+20    	sub-0025618
+21    	sub-0025619
+22    	sub-0025620
+23    	sub-0025621
+24    	sub-0025622
+25    	sub-0025623
+26    	sub-0025624
+27    	sub-0025625
+28    	sub-0025626
+29		sub-0025627
+30    	sub-0025628
+======	==============================
