@@ -27,10 +27,12 @@ The most recently published snapshot can be downloaded from S3. This method is b
 
 	
 	
-Functional MRI result::
+**Functional MRI result**::
 
 
-    aws s3 sync --no-sign-request s3://ndmg-data/BNU2/BNU2-m2g-func-04-15-20 .
+    aws s3 sync --no-sign-request s3://ndmg-data/BNU2/BNU2-m2g-func-04-15-20 <your_local_direction>
+	
+example: aws s3 sync --no-sign-request s3://ndmg-data/BNU2/BNU2-m2g-func-04-15-20 .
 
 
 
@@ -38,254 +40,78 @@ Single Sample Download Instructions
 ----------------------------------------
 
 
-**Functional MRI single sample**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Functional MRI single sample**::
     
-sub-0025921   ::
-    
-    aws s3 sync --no-sign-request s3://ndmg-data/BNU2/BNU2-m2g-func-04-15-20/sub-0025921 .
-    
-sub-0025922   ::
-    
-    aws s3 sync --no-sign-request s3://ndmg-data/BNU2/BNU2-m2g-func-04-15-20/sub-0025922 .
-	
-sub-0025923   ::
-    
-    aws s3 sync --no-sign-request s3://ndmg-data/BNU2/BNU2-m2g-func-04-15-20/sub-0025923 .
-    
-sub-0025924   ::
-    
-    aws s3 sync --no-sign-request s3://ndmg-data/BNU2/BNU2-m2g-func-04-15-20/sub-0025924 .
-    
-sub-0025925   ::
-    
-    aws s3 sync --no-sign-request s3://ndmg-data/BNU2/BNU2-m2g-func-04-15-20/sub-0025925 .
-	
-sub-0025926   ::
-    
-    aws s3 sync --no-sign-request s3://ndmg-data/BNU2/BNU2-m2g-func-04-15-20/sub-0025926 .
-    
-sub-0025927   ::
-    
-    aws s3 sync --no-sign-request s3://ndmg-data/BNU2/BNU2-m2g-func-04-15-20/sub-0025927 .
-    
-sub-0025928   ::
-    
-    aws s3 sync --no-sign-request s3://ndmg-data/BNU2/BNU2-m2g-func-04-15-20/sub-0025928 .
-		
-sub-0025929  ::
-    
-    aws s3 sync --no-sign-request s3://ndmg-data/BNU2/BNU2-m2g-func-04-15-20/sub-0025929 .
-    
-sub-0025930   ::
-    
-    aws s3 sync --no-sign-request s3://ndmg-data/BNU2/BNU2-m2g-func-04-15-20/sub-0025930 .
-	    
-sub-0025931   ::
-    
-    aws s3 sync --no-sign-request s3://ndmg-data/BNU2/BNU2-m2g-func-04-15-20/sub-0025931 .
-    
-sub-0025932   ::
-    
-    aws s3 sync --no-sign-request s3://ndmg-data/BNU2/BNU2-m2g-func-04-15-20/sub-0025932 .
-	
-sub-0025933   ::
-    
-    aws s3 sync --no-sign-request s3://ndmg-data/BNU2/BNU2-m2g-func-04-15-20/sub-0025933 .
-    
-sub-0025934   ::
-    
-    aws s3 sync --no-sign-request s3://ndmg-data/BNU2/BNU2-m2g-func-04-15-20/sub-0025934 .
-    
-sub-0025935   ::
-    
-    aws s3 sync --no-sign-request s3://ndmg-data/BNU2/BNU2-m2g-func-04-15-20/sub-0025935 .
-	
-sub-0025936   ::
-    
-    aws s3 sync --no-sign-request s3://ndmg-data/BNU2/BNU2-m2g-func-04-15-20/sub-0025936 .
-    
-sub-0025937   ::
-    
-    aws s3 sync --no-sign-request s3://ndmg-data/BNU2/BNU2-m2g-func-04-15-20/sub-0025937 .
-    
-sub-0025938   ::
-    
-    aws s3 sync --no-sign-request s3://ndmg-data/BNU2/BNU2-m2g-func-04-15-20/sub-0025938 .
-		
-sub-0025939  ::
-    
-    aws s3 sync --no-sign-request s3://ndmg-data/BNU2/BNU2-m2g-func-04-15-20/sub-0025939 .
-    
-sub-0025940   ::
-    
-    aws s3 sync --no-sign-request s3://ndmg-data/BNU2/BNU2-m2g-func-04-15-20/sub-0025940 .
-    
-sub-0025941   ::
-    
-    aws s3 sync --no-sign-request s3://ndmg-data/BNU2/BNU2-m2g-func-04-15-20/sub-0025941 .
-    
-sub-0025942   ::
-    
-    aws s3 sync --no-sign-request s3://ndmg-data/BNU2/BNU2-m2g-func-04-15-20/sub-0025942 .
-	
-sub-0025943   ::
-    
-    aws s3 sync --no-sign-request s3://ndmg-data/BNU2/BNU2-m2g-func-04-15-20/sub-0025943 .
-    
-sub-0025944   ::
-    
-    aws s3 sync --no-sign-request s3://ndmg-data/BNU2/BNU2-m2g-func-04-15-20/sub-0025944 .
-    
-sub-0025945   ::
-    
-    aws s3 sync --no-sign-request s3://ndmg-data/BNU2/BNU2-m2g-func-04-15-20/sub-0025945 .
-	
-sub-0025946   ::
-    
-    aws s3 sync --no-sign-request s3://ndmg-data/BNU2/BNU2-m2g-func-04-15-20/sub-0025946 .
-    
-sub-0025947   ::
-    
-    aws s3 sync --no-sign-request s3://ndmg-data/BNU2/BNU2-m2g-func-04-15-20/sub-0025947 .
-    
-sub-0025948   ::
-    
-    aws s3 sync --no-sign-request s3://ndmg-data/BNU2/BNU2-m2g-func-04-15-20/sub-0025948 .
-		
-sub-0025949  ::
-    
-    aws s3 sync --no-sign-request s3://ndmg-data/BNU2/BNU2-m2g-func-04-15-20/sub-0025949 .
-    
-sub-0025950   ::
-    
-    aws s3 sync --no-sign-request s3://ndmg-data/BNU2/BNU2-m2g-func-04-15-20/sub-0025950 .
-    
-sub-0025951   ::
-    
-    aws s3 sync --no-sign-request s3://ndmg-data/BNU2/BNU2-m2g-func-04-15-20/sub-0025951 .
+    aws s3 sync --no-sign-request s3://ndmg-data/BNU2/BNU2-m2g-func-04-15-20/<subject_number> <your_local_direction>
 
-sub-0025952   ::
-    
-    aws s3 sync --no-sign-request s3://ndmg-data/BNU2/BNU2-m2g-func-04-15-20/sub-0025952 .
-	
-sub-0025953   ::
-    
-    aws s3 sync --no-sign-request s3://ndmg-data/BNU2/BNU2-m2g-func-04-15-20/sub-0025953 .
-    
-sub-0025954   ::
-    
-    aws s3 sync --no-sign-request s3://ndmg-data/BNU2/BNU2-m2g-func-04-15-20/sub-0025954 .
-    
-sub-0025955   ::
-    
-    aws s3 sync --no-sign-request s3://ndmg-data/BNU2/BNU2-m2g-func-04-15-20/sub-0025955 .
-	
-sub-0025956   ::
-    
-    aws s3 sync --no-sign-request s3://ndmg-data/BNU2/BNU2-m2g-func-04-15-20/sub-0025956 .
-    
-sub-0025957   ::
-    
-    aws s3 sync --no-sign-request s3://ndmg-data/BNU2/BNU2-m2g-func-04-15-20/sub-0025957 .
-    
-sub-0025958   ::
-    
-    aws s3 sync --no-sign-request s3://ndmg-data/BNU2/BNU2-m2g-func-04-15-20/sub-0025958 .
-		
-sub-0025959  ::
-    
-    aws s3 sync --no-sign-request s3://ndmg-data/BNU2/BNU2-m2g-func-04-15-20/sub-0025959 .
-    
-sub-0025960   ::
-    
-    aws s3 sync --no-sign-request s3://ndmg-data/BNU2/BNU2-m2g-func-04-15-20/sub-0025960 .
-    
-sub-0025961   ::
-    
-    aws s3 sync --no-sign-request s3://ndmg-data/BNU2/BNU2-m2g-func-04-15-20/sub-0025961 .
+example: aws s3 sync --no-sign-request s3://ndmg-data/BNU2/BNU2-m2g-func-04-15-20/sub-0025921 .
 
-sub-0025962   ::
-    
-    aws s3 sync --no-sign-request s3://ndmg-data/BNU2/BNU2-m2g-func-04-15-20/sub-0025962 .
-	
-sub-0025963   ::
-    
-    aws s3 sync --no-sign-request s3://ndmg-data/BNU2/BNU2-m2g-func-04-15-20/sub-0025963 .
-    
-sub-0025964   ::
-    
-    aws s3 sync --no-sign-request s3://ndmg-data/BNU2/BNU2-m2g-func-04-15-20/sub-0025964 .
-    
-sub-0025965   ::
-    
-    aws s3 sync --no-sign-request s3://ndmg-data/BNU2/BNU2-m2g-func-04-15-20/sub-0025965 .
-	
-sub-0025966   ::
-    
-    aws s3 sync --no-sign-request s3://ndmg-data/BNU2/BNU2-m2g-func-04-15-20/sub-0025966 .
-    
-sub-0025967   ::
-    
-    aws s3 sync --no-sign-request s3://ndmg-data/BNU2/BNU2-m2g-func-04-15-20/sub-0025967 .
-    
-sub-0025968   ::
-    
-    aws s3 sync --no-sign-request s3://ndmg-data/BNU2/BNU2-m2g-func-04-15-20/sub-0025968 .
-		
-sub-0025969  ::
-    
-    aws s3 sync --no-sign-request s3://ndmg-data/BNU2/BNU2-m2g-func-04-15-20/sub-0025969 .
-    
-sub-0025970   ::
-    
-    aws s3 sync --no-sign-request s3://ndmg-data/BNU2/BNU2-m2g-func-04-15-20/sub-0025970 .
-    
-sub-0025971   ::
-    
-    aws s3 sync --no-sign-request s3://ndmg-data/BNU2/BNU2-m2g-func-04-15-20/sub-0025971 .
-    
-sub-0025972   ::
-    
-    aws s3 sync --no-sign-request s3://ndmg-data/BNU2/BNU2-m2g-func-04-15-20/sub-0025972 .
-	
-sub-0025973   ::
-    
-    aws s3 sync --no-sign-request s3://ndmg-data/BNU2/BNU2-m2g-func-04-15-20/sub-0025973 .
-    
-sub-0025974   ::
-    
-    aws s3 sync --no-sign-request s3://ndmg-data/BNU2/BNU2-m2g-func-04-15-20/sub-0025974 .
-    
-sub-0025975   ::
-    
-    aws s3 sync --no-sign-request s3://ndmg-data/BNU2/BNU2-m2g-func-04-15-20/sub-0025975 .
-	
-sub-0025976   ::
-    
-    aws s3 sync --no-sign-request s3://ndmg-data/BNU2/BNU2-m2g-func-04-15-20/sub-0025976 .
-    
-sub-0025977   ::
-    
-    aws s3 sync --no-sign-request s3://ndmg-data/BNU2/BNU2-m2g-func-04-15-20/sub-0025977 .
-    
-sub-0025978   ::
-    
-    aws s3 sync --no-sign-request s3://ndmg-data/BNU2/BNU2-m2g-func-04-15-20/sub-0025978 .
-		
-sub-0025979  ::
-    
-    aws s3 sync --no-sign-request s3://ndmg-data/BNU2/BNU2-m2g-func-04-15-20/sub-0025979 .
-    
-sub-0025980   ::
-    
-    aws s3 sync --no-sign-request s3://ndmg-data/BNU2/BNU2-m2g-func-04-15-20/sub-0025980 .
-    
-sub-0025981   ::
-    
-    aws s3 sync --no-sign-request s3://ndmg-data/BNU2/BNU2-m2g-func-04-15-20/sub-0025981 .
-	
 
+======	==============================
+order	subject_number
+======	==============================
+1    	sub-0025921
+2    	sub-0025922
+3    	sub-0025923
+4    	sub-0025924
+5    	sub-0025925
+6    	sub-0025926
+7    	sub-0025927
+8    	sub-0025928
+9		sub-0025929
+10    	sub-0025930
+11    	sub-0025931
+12    	sub-0025932
+13    	sub-0025933
+14    	sub-0025934
+15    	sub-0025935
+16    	sub-0025936
+17    	sub-0025937
+18    	sub-0025938
+19		sub-0025939
+20    	sub-0025940
+21    	sub-0025941
+22    	sub-0025942
+23    	sub-0025943
+24    	sub-0025944
+25    	sub-0025945
+26    	sub-0025946
+27    	sub-0025947
+28    	sub-0025948
+29		sub-0025949
+30    	sub-0025950
+31    	sub-0025951
+32    	sub-0025952
+33    	sub-0025953
+34    	sub-0025954
+35    	sub-0025955
+36    	sub-0025956
+37    	sub-0025957
+38    	sub-0025958
+39		sub-0025959
+40    	sub-0025960
+41    	sub-0025961
+42    	sub-0025962
+43    	sub-0025963
+44    	sub-0025964
+45    	sub-0025965
+46    	sub-0025966
+47    	sub-0025967
+48    	sub-0025968
+49		sub-0025969
+50    	sub-0025970
+51    	sub-0025971
+52    	sub-0025972
+53    	sub-0025973
+54    	sub-0025974
+55    	sub-0025975
+56    	sub-0025976
+57    	sub-0025977
+58    	sub-0025978
+59		sub-0025979
+60    	sub-0025980
+61    	sub-0025981
+======	==============================
 
 
 
