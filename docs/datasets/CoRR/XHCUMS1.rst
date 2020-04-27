@@ -33,7 +33,7 @@ Single Sample Download Instructions
     
     aws s3 sync --no-sign-request s3://ndmg-data/XHCUMS/XHCUMS-m2g-func-04-15-20/<subject_number> <your_local_direction>
 
-example: aws s3 sync --no-sign-request s3://ndmg-data/XHCUMS/XHCUMS-m2g-func-04-15-20/sub-0026044 .
+example: aws s3 sync --no-sign-request s3://ndmg-data/XHCUMS/XHCUMS-m2g-func-04-15-20/sub-0025982 .
 
 
 ======	==============================
