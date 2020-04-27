@@ -40,7 +40,9 @@ Diffusion MRI result::
 Functional MRI result::
 
 
-    aws s3 sync --no-sign-request s3://ndmg-data/BNU1/BNU1-m2g-func-04-15-20 .
+    aws s3 sync --no-sign-request s3://ndmg-data/BNU1/BNU1-m2g-func-04-15-20 <your local direction>
+	
+	example: aws s3 sync --no-sign-request s3://ndmg-data/BNU1/BNU1-m2g-func-04-15-20 .
 
 
 
