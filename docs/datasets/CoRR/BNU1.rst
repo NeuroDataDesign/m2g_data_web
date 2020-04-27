@@ -32,12 +32,12 @@ The most recently published snapshot can be downloaded from S3. This method is b
 
 
 
-Diffusion MRI result::
+**Diffusion MRI result**::
 
 	aws s3 sync --no-sign-request s3://ndmg-data/BNU1/BNU1-2-8-20-m2g_staging-native-csa-det .
 	
 	
-Functional MRI result::
+**Functional MRI result**::
 
 
     aws s3 sync --no-sign-request s3://ndmg-data/BNU1/BNU1-m2g-func-04-15-20 <your local direction>
@@ -52,6 +52,24 @@ Single Sample Download Instructions
 
 **Diffusion MRI single sample**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+==============================
+sub-0025864
+==============================
+sub-0025865
+==============================
+sub-0025866
+==============================
+sub-0025867
+==============================
+sub-0025868
+==============================
+sub-0025869
+==============================
+sub-0025870
+==============================
+
 
 sub-0025864   ::
     
