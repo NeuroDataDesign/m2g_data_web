@@ -33,9 +33,14 @@ The most recently published snapshot can be downloaded from S3. This method is b
 
 
 
-Diffusion MRI result::
+**Diffusion MRI result**::
 
-	aws s3 sync --no-sign-request s3://ndmg-data/NKI1/NKI1-2-8-20-m2g_staging-native-csa-det .
+	aws s3 sync --no-sign-request s3://ndmg-data/NKI1/NKI1-2-8-20-m2g_staging-native-csa-det <your_local_direction>
+	
+example: aws s3 sync --no-sign-request s3://ndmg-data/NKI1/NKI1-2-8-20-m2g_staging-native-csa-det .
+
+	
+	
 
 
 
@@ -43,88 +48,32 @@ Single Sample Download Instructions
 ----------------------------------------
 
 
-**Diffusion MRI single sample**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+**Diffusion MRI single sample**::
+    
+    aws s3 sync --no-sign-request s3://ndmg-data/NKI1/NKI1-2-8-20-m2g_staging-native-csa-det/<subject_number> <your_local_direction>
 
-sub-0021001   ::	
+example: aws s3 sync --no-sign-request s3://ndmg-data/NKI1/NKI1-2-8-20-m2g_staging-native-csa-det/sub-0021001 .
 
-	aws s3 sync --no-sign-request s3://ndmg-data/NKI1/NKI1-2-8-20-m2g_staging-native-csa-det/sub-0021001 .
-
-sub-0021002   ::	
-
-	aws s3 sync --no-sign-request s3://ndmg-data/NKI1/NKI1-2-8-20-m2g_staging-native-csa-det/sub-0021002 .
-
-sub-0021006   ::	
-
-	aws s3 sync --no-sign-request s3://ndmg-data/NKI1/NKI1-2-8-20-m2g_staging-native-csa-det/sub-0021006 .
-
-sub-0021018   ::	
-
-	aws s3 sync --no-sign-request s3://ndmg-data/NKI1/NKI1-2-8-20-m2g_staging-native-csa-det/sub-0021018 .
-
-sub-0021024   ::	
-
-	aws s3 sync --no-sign-request s3://ndmg-data/NKI1/NKI1-2-8-20-m2g_staging-native-csa-det/sub-0021024 .
-
-sub-1793622   ::	
-
-	aws s3 sync --no-sign-request s3://ndmg-data/NKI1/NKI1-2-8-20-m2g_staging-native-csa-det/sub-1793622 .
-
-sub-1961098   ::	
-
-	aws s3 sync --no-sign-request s3://ndmg-data/NKI1/NKI1-2-8-20-m2g_staging-native-csa-det/sub-1961098 .
-
-sub-2475376   ::	
-
-	aws s3 sync --no-sign-request s3://ndmg-data/NKI1/NKI1-2-8-20-m2g_staging-native-csa-det/sub-2475376 .
-
-sub-2842950   ::	
-
-	aws s3 sync --no-sign-request s3://ndmg-data/NKI1/NKI1-2-8-20-m2g_staging-native-csa-det/sub-2842950 .
-
-sub-3201815   ::	
-
-	aws s3 sync --no-sign-request s3://ndmg-data/NKI1/NKI1-2-8-20-m2g_staging-native-csa-det/sub-3201815 .
-
-sub-3313349   ::	
-
-	aws s3 sync --no-sign-request s3://ndmg-data/NKI1/NKI1-2-8-20-m2g_staging-native-csa-det/sub-3313349 .
-
-sub-3315657   ::	
-
-	aws s3 sync --no-sign-request s3://ndmg-data/NKI1/NKI1-2-8-20-m2g_staging-native-csa-det/sub-3315657 .
-
-sub-3795193   ::	
-
-	aws s3 sync --no-sign-request s3://ndmg-data/NKI1/NKI1-2-8-20-m2g_staging-native-csa-det/sub-3795193 .
-
-sub-3808535   ::	
-
-	aws s3 sync --no-sign-request s3://ndmg-data/NKI1/NKI1-2-8-20-m2g_staging-native-csa-det/sub-3808535 .
-
-sub-4176156   ::	
-
-	aws s3 sync --no-sign-request s3://ndmg-data/NKI1/NKI1-2-8-20-m2g_staging-native-csa-det/sub-4176156 .
-
-sub-7055197   ::	
-
-	aws s3 sync --no-sign-request s3://ndmg-data/NKI1/NKI1-2-8-20-m2g_staging-native-csa-det/sub-7055197 .
-
-sub-8735778   ::	
-
-	aws s3 sync --no-sign-request s3://ndmg-data/NKI1/NKI1-2-8-20-m2g_staging-native-csa-det/sub-8735778 .
-
-sub-9630905   ::	
-
-	aws s3 sync --no-sign-request s3://ndmg-data/NKI1/NKI1-2-8-20-m2g_staging-native-csa-det/sub-9630905 .
-
-
-
-=== ======== ==========
-ID  名称     地址
-=== ======== ==========
-1   张三     未填写
-2   李四     未填写
-=== ======== ==========
-   
+======	==============================
+order	subject_number
+======	==============================
+1    	sub-0021001
+2    	sub-0021002
+3    	sub-0021006
+4    	sub-0021018
+5    	sub-0021024
+6    	sub-1793622
+7    	sub-1961098
+8    	sub-2475376
+9		sub-2842950
+10    	sub-3201815
+11    	sub-3313349
+12    	sub-3315657
+13    	sub-3795193
+14    	sub-3808535
+15    	sub-4176156
+16    	sub-7055197
+17    	sub-8735778
+18    	sub-9630905
+======	==============================
