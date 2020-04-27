@@ -56,7 +56,7 @@ Single Sample Download Instructions
 
 	
 ==	==============================
-	subject_number
+  	subject_number
 ==	==============================
 1	sub-0025864
 2	sub-0025865
