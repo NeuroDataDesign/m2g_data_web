@@ -16,6 +16,16 @@ SWU - Southwest University
 See http://fcon_1000.projects.nitrc.org/indi/CoRR/html/swu_2.html for the website of the original dataset
 
 
+
+All Data Download Instructions
+-------------------------------------
+
+Download from S3
+
+The most recently published snapshot can be downloaded from S3. This method is best for larger datasets or unstable connections. This example uses AWS CLI: https://aws.amazon.com/cli/?nc1=h_ls/
+
+
+
 **Functional MRI result**::
 
 
