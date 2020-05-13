@@ -34,7 +34,9 @@ The most recently published snapshot can be downloaded from S3. This method is b
 
     aws s3 sync --no-sign-request s3://ndmg-data/IBATRT/IBATRT-m2g-func-04-15-20 <your_local_direction>
 	
-example: aws s3 sync --no-sign-request s3://ndmg-data/IBATRT/IBATRT-m2g-func-04-15-20 .
+Example: 
+
+``aws s3 sync --no-sign-request s3://ndmg-data/IBATRT/IBATRT-m2g-func-04-15-20 .``
 
 
 
@@ -51,11 +53,13 @@ Single Sample Download Instructions
     
     aws s3 sync --no-sign-request s3://ndmg-data/IBATRT/IBATRT-m2g-func-04-15-20/<subject_number> <your_local_direction>
 
-example: aws s3 sync --no-sign-request s3://ndmg-data/IBATRT/IBATRT-m2g-func-04-15-20/sub-0027223 .
+Example: 
+
+``aws s3 sync --no-sign-request s3://ndmg-data/IBATRT/IBATRT-m2g-func-04-15-20/sub-0027223 .``
 
 
 ======	==============================
-order	subject_number
+index	subject_number
 ======	==============================
 1    	sub-0027223
 2    	sub-0027224
