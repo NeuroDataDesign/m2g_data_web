@@ -43,8 +43,18 @@ Example:
 
 ``aws s3 sync --no-sign-request s3://ndmg-data/HNU1/HNU1-2-8-20-m2g_staging-native-csa-det .``
 
+
+
+	
+**Functional MRI result**::
+
+
+    aws s3 sync --no-sign-request s3://ndmg-data/HNU1/HNU1-m2g-func-04-15-20 <your_local_direction>
 	
 	
+Example: 
+
+``aws s3 sync --no-sign-request s3://ndmg-data/HNU1/HNU1-m2g-func-04-15-20 .``	
 
 
 
@@ -96,3 +106,51 @@ index	subject_number
 30    	sub-0025456
 ======	==============================
 
+
+
+
+
+**Functional MRI single sample**::
+    
+    aws s3 sync --no-sign-request s3://ndmg-data/HNU1/HNU1-m2g-func-04-15-20/<subject_number> <your_local_direction>
+
+
+Example: 
+
+``aws s3 sync --no-sign-request s3://ndmg-data/HNU1/HNU1-m2g-func-04-15-20/sub-0025427 .``
+
+
+======	==============================
+index	subject_number
+======	==============================
+1    	sub-0025427
+2    	sub-0025428
+3    	sub-0025429
+4    	sub-0025430
+5    	sub-0025431
+6    	sub-0025432
+7    	sub-0025433
+8    	sub-0025434
+9		sub-0025435
+10    	sub-0025436
+11    	sub-0025437
+12    	sub-0025438
+13    	sub-0025439
+14    	sub-0025440
+15    	sub-0025441
+16    	sub-0025442
+17    	sub-0025443
+18    	sub-0025444
+19		sub-0025445
+20    	sub-0025446
+21    	sub-0025447
+22    	sub-0025448
+23    	sub-0025449
+24    	sub-0025450
+25    	sub-0025451
+26    	sub-0025452
+27    	sub-0025453
+28    	sub-0025454
+29		sub-0025455
+30    	sub-0025456
+======	==============================
