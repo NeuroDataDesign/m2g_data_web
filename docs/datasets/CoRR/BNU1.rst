@@ -36,15 +36,22 @@ The most recently published snapshot can be downloaded from S3. This method is b
 
 	aws s3 sync --no-sign-request s3://ndmg-data/BNU1/BNU1-2-8-20-m2g_staging-native-csa-det <your_local_direction>
 	
-example: aws s3 sync --no-sign-request s3://ndmg-data/BNU1/BNU1-2-8-20-m2g_staging-native-csa-det .
+	
+Example: 
 
+``aws s3 sync --no-sign-request s3://ndmg-data/BNU1/BNU1-2-8-20-m2g_staging-native-csa-det .``
+
+	
 	
 **Functional MRI result**::
 
 
     aws s3 sync --no-sign-request s3://ndmg-data/BNU1/BNU1-m2g-func-04-15-20 <your_local_direction>
 	
-example: aws s3 sync --no-sign-request s3://ndmg-data/BNU1/BNU1-m2g-func-04-15-20 .
+	
+Example: 
+
+``aws s3 sync --no-sign-request s3://ndmg-data/BNU1/BNU1-m2g-func-04-15-20 .``
 
 
 
@@ -57,10 +64,14 @@ Single Sample Download Instructions
     
     aws s3 sync --no-sign-request s3://ndmg-data/BNU1/BNU1-2-8-20-m2g_staging-native-csa-det/<subject_number> <your_local_direction>
 
-example: aws s3 sync --no-sign-request s3://ndmg-data/BNU1/BNU1-2-8-20-m2g_staging-native-csa-det/sub-0025864 .
+
+Example: 
+
+``aws s3 sync --no-sign-request s3://ndmg-data/BNU1/BNU1-2-8-20-m2g_staging-native-csa-det/sub-0025864 .``
+
 
 ======	==============================
-order	subject_number
+index	subject_number
 ======	==============================
 1    	sub-0025864
 2    	sub-0025865
@@ -126,11 +137,14 @@ order	subject_number
     
     aws s3 sync --no-sign-request s3://ndmg-data/BNU1/BNU1-m2g-func-04-15-20/<subject_number> <your_local_direction>
 
-example: aws s3 sync --no-sign-request s3://ndmg-data/BNU1/BNU1-m2g-func-04-15-20/sub-0025864 .
+
+Example: 
+
+``aws s3 sync --no-sign-request s3://ndmg-data/BNU1/BNU1-m2g-func-04-15-20/sub-0025864 .``
 
 
 ======	==============================
-order	subject_number
+index	subject_number
 ======	==============================
 1    	sub-0025864
 2    	sub-0025865
