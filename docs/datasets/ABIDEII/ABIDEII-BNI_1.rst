@@ -12,16 +12,15 @@ ABIDEII-BNI_1
 Overview
 -----------
 
-Autism Brain Imaging Data Exchange II (ABIDE II)
-
-Connectivity-based Brain Imaging Research Database (C-BIRD) at BNU
-
-See http://fcon_1000.projects.nitrc.org/indi/CoRR/html/bnu_1.html for the website of the original dataset
-
-**Sample Connectome** from sub-0025866_ses-1_dwi_desikan_space-MNI152NLin6_res-2x2x2_connectome.png
+Autism Brain Imaging Data Exchange II  -  Barrow Neurological Institute
 
 
-.. image:: ../../_static/connectomic_pic/BNU1-sub-0025866_ses-1_dwi_desikan_space-MNI152NLin6_res-2x2x2_connectome.png
+See http://fcon_1000.projects.nitrc.org/indi/abide/abide_II.html for the website of the original dataset
+
+**Sample Connectome** from sub-29044_ses-1_dwi_desikan_space-MNI152NLin6_res-2x2x2_connectome.png
+
+
+.. image:: ../../_static/connectomic_pic/ABIDEII-BNI_1-sub-29044_ses-1_dwi_desikan_space-MNI152NLin6_res-2x2x2_connectome.png
 	:width: 400
 	:align: center
 
