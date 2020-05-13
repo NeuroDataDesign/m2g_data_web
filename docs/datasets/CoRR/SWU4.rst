@@ -61,7 +61,9 @@ Single Sample Download Instructions
     
     aws s3 sync --no-sign-request s3://ndmg-data/SWU4/SWU4-2-8-20-m2g_staging-native-csa-det/<subject_number> <your_local_direction>
 
-example: aws s3 sync --no-sign-request s3://ndmg-data/SWU4/SWU4-2-8-20-m2g_staging-native-csa-det/sub-0025629 .
+Example: 
+
+``aws s3 sync --no-sign-request s3://ndmg-data/SWU4/SWU4-2-8-20-m2g_staging-native-csa-det/sub-0025629 .``
 
 ======	==============================
 order	subject_number
