@@ -39,7 +39,9 @@ The most recently published snapshot can be downloaded from S3. This method is b
 
 	aws s3 sync --no-sign-request s3://ndmg-data/HNU1/HNU1-2-8-20-m2g_staging-native-csa-det <your_local_direction>
 	
-example: aws s3 sync --no-sign-request s3://ndmg-data/HNU1/HNU1-2-8-20-m2g_staging-native-csa-det .
+Example: 
+
+``aws s3 sync --no-sign-request s3://ndmg-data/HNU1/HNU1-2-8-20-m2g_staging-native-csa-det .``
 
 	
 	
@@ -55,10 +57,12 @@ Single Sample Download Instructions
     
     aws s3 sync --no-sign-request s3://ndmg-data/HNU1/HNU1-2-8-20-m2g_staging-native-csa-det/<subject_number> <your_local_direction>
 
-example: aws s3 sync --no-sign-request s3://ndmg-data/HNU1/HNU1-2-8-20-m2g_staging-native-csa-det/sub-0025427 .
+Example: 
+
+``aws s3 sync --no-sign-request s3://ndmg-data/HNU1/HNU1-2-8-20-m2g_staging-native-csa-det/sub-0025427 .``
 
 ======	==============================
-order	subject_number
+index	subject_number
 ======	==============================
 1    	sub-0025427
 2    	sub-0025428
