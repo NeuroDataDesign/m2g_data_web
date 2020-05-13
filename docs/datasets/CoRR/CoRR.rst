@@ -48,7 +48,7 @@ Datasets in CoRR
    MRN1
    MRN1313
    NKI1
-   NKI2
+   NKI24
    NKIENH
    NYU1
    NYU2
