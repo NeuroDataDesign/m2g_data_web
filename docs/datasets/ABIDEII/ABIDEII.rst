@@ -19,11 +19,11 @@ See http://fcon_1000.projects.nitrc.org/indi/abide/abide_II.html for the website
 
 
 ================	=====================		======================
-Dataset				 have d-MRI result     		   have f-MRI result
+Dataset				have d-MRI result     		have f-MRI result
 ================	=====================		======================
-ABIDEII-BNI_1    		yes							yes
-ABIDEII-SDSU_1   		yes							yes
-ABIDEII-TCD_1   		yes							yes		
+ABIDEII-BNI_1    	yes							yes
+ABIDEII-SDSU_1   	yes							yes
+ABIDEII-TCD_1   	yes							yes		
 ================	=====================		======================
 
 
@@ -42,9 +42,9 @@ Datasets in ABIDEII
 
 
 ================	=====================		======================
-Dataset				 have d-MRI result     		   have f-MRI result
+Dataset				have d-MRI result     		have f-MRI result
 ================	=====================		======================
-ABIDEII-BNI_1    		yes							yes
-ABIDEII-SDSU_1   		yes							yes
-ABIDEII-TCD_1   		yes							yes		
+ABIDEII-BNI_1    	yes							yes
+ABIDEII-SDSU_1   	yes							yes
+ABIDEII-TCD_1   	yes							yes		
 ================	=====================		======================
