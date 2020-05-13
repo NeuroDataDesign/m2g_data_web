@@ -57,12 +57,40 @@ Single Sample Download Instructions
 
 **Diffusion MRI single sample**::
     
-    aws s3 sync --no-sign-request s3://ndmg-data/BNU1/BNU1-2-8-20-m2g_staging-native-csa-det/<subject_number> <your_local_direction>
+    aws s3 sync --no-sign-request s3://ndmg-data/ABIDEII-BNI_1/ABIDEII-BNI_1-m2g-dwi-04-15-20-csa-det-native/<subject_number> <your_local_direction>
 
-example: aws s3 sync --no-sign-request s3://ndmg-data/BNU1/BNU1-2-8-20-m2g_staging-native-csa-det/sub-0025864 .
+example: aws s3 sync --no-sign-request s3://ndmg-data/ABIDEII-BNI_1/ABIDEII-BNI_1-m2g-dwi-04-15-20-csa-det-native/sub-0025864 .
 
-======	==============================
-order	subject_number
-======	==============================
-1    	sub-0025864
-2    	sub-0025865
+=====	==============================
+index	subject_number
+=====	==============================
+1    	sub-29011
+2    	sub-29014
+3    	sub-29016
+4    	sub-29018
+5    	sub-29019
+6    	sub-29020
+7    	sub-29021
+8    	sub-29022
+9		sub-29023
+10    	sub-29024
+11    	sub-29032
+12    	sub-29033
+13    	sub-29034
+14    	sub-29035
+15    	sub-29036
+16    	sub-29038
+17    	sub-29040
+18    	sub-29044
+19		sub-29045
+20    	sub-29047
+21    	sub-29048
+22    	sub-29049
+23    	sub-29050
+24    	sub-29051
+25    	sub-29054
+26    	sub-29056
+27    	sub-29146
+28    	sub-29147
+29		sub-29149
+=====	==============================
