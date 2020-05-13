@@ -60,7 +60,7 @@ Datasets in CoRR
 
 
 ================	=====================	======================
-Dataset         	Have d-MRI result    	Have f-MRI result
+Dataset				Have d-MRI result		Have f-MRI result
 ================	=====================	======================
 ABIDEII-BNI_1		yes						yes
 ABIDEII-SDSU_1		yes						yes
