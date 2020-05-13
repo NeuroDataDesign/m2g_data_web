@@ -37,7 +37,9 @@ The most recently published snapshot can be downloaded from S3. This method is b
 
 	aws s3 sync --no-sign-request s3://ndmg-data/ABIDEII-SDSU_1/ABIDEII-SDSU_1-m2g-dwi-05-03-20-csa-det-native <your_local_direction>
 	
-Example: ``aws s3 sync --no-sign-request s3://ndmg-data/ABIDEII-SDSU_1/ABIDEII-SDSU_1-m2g-dwi-05-03-20-csa-det-native .``
+Example: 
+
+``aws s3 sync --no-sign-request s3://ndmg-data/ABIDEII-SDSU_1/ABIDEII-SDSU_1-m2g-dwi-05-03-20-csa-det-native .``
 
 	
 **Functional MRI result**::
@@ -45,7 +47,9 @@ Example: ``aws s3 sync --no-sign-request s3://ndmg-data/ABIDEII-SDSU_1/ABIDEII-S
 
 	aws s3 sync --no-sign-request s3://ndmg-data/ABIDEII-SDSU_1/ABIDEII-SDSU_1-m2g-func-04-15-20 <your_local_direction>
 	
-Example: ``aws s3 sync --no-sign-request s3://ndmg-data/ABIDEII-SDSU_1/ABIDEII-SDSU_1-m2g-func-04-15-20 .``
+Example: 
+
+``aws s3 sync --no-sign-request s3://ndmg-data/ABIDEII-SDSU_1/ABIDEII-SDSU_1-m2g-func-04-15-20 .``
 
 
 
@@ -58,7 +62,9 @@ Single Sample Download Instructions
     
     aws s3 sync --no-sign-request s3://ndmg-data/ABIDEII-SDSU_1/ABIDEII-SDSU_1-m2g-dwi-05-03-20-csa-det-native/<subject_number> <your_local_direction>
 
-Example: ``aws s3 sync --no-sign-request s3://ndmg-data/ABIDEII-SDSU_1/ABIDEII-SDSU_1-m2g-dwi-05-03-20-csa-det-native/sub-29011 .``
+Example: 
+
+``aws s3 sync --no-sign-request s3://ndmg-data/ABIDEII-SDSU_1/ABIDEII-SDSU_1-m2g-dwi-05-03-20-csa-det-native/sub-28854 .``
 
 =====	==============================
 index	subject_number
@@ -96,7 +102,9 @@ index	subject_number
     
     aws s3 sync --no-sign-request s3://ndmg-data/ABIDEII-SDSU_1/ABIDEII-SDSU_1-m2g-func-04-15-20/<subject_number> <your_local_direction>
 
-Example: ``aws s3 sync --no-sign-request s3://ndmg-data/ABIDEII-SDSU_1/ABIDEII-SDSU_1-m2g-func-04-15-20/sub-0025864 .``
+Example: 
+
+``aws s3 sync --no-sign-request s3://ndmg-data/ABIDEII-SDSU_1/ABIDEII-SDSU_1-m2g-func-04-15-20/sub-28854 .``
 
 
 =====	==============================
