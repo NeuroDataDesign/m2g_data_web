@@ -10,14 +10,20 @@ ABIDEII
 
 Overview
 --------------------
-Autism Brain Imaging Data Exchange II(ABIDE II)
+Autism Brain Imaging Data Exchange II (ABIDE II)
 
 
 
 See http://fcon_1000.projects.nitrc.org/indi/abide/abide_II.html for the website of the original dataset
 
 
-
+================	=====================		======================
+Dataset				 have d-MRI result     		   have f-MRI result
+================	=====================		======================
+ABIDEII-BNI_1    		√							√
+ABIDEII-SDSU_1   		√							√
+ABIDEII-TCD_1   		√							√		
+================	=====================		======================
 
 
 Datasets in ABIDEII
@@ -34,10 +40,3 @@ Datasets in ABIDEII
 
 
 
-================	=====================		======================
-Dataset				 have d-MRI result     		   have f-MRI result
-================	=====================		======================
-ABIDEII-BNI_1    		√							√
-ABIDEII-SDSU_1   		√							√
-ABIDEII-TCD_1   		√							√		
-================	=====================		======================
