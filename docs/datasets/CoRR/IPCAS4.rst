@@ -30,7 +30,9 @@ The most recently published snapshot can be downloaded from S3. This method is b
 
     aws s3 sync --no-sign-request s3://ndmg-data/IPCAS4/IPCAS4-m2g-func-04-15-21 <your_local_direction>
 	
-example: aws s3 sync --no-sign-request s3://ndmg-data/IPCAS4/IPCAS4-m2g-func-04-15-21 .
+Example: 
+
+``aws s3 sync --no-sign-request s3://ndmg-data/IPCAS4/IPCAS4-m2g-func-04-15-21 .``
 
 
 
@@ -46,11 +48,13 @@ Single Sample Download Instructions
     
     aws s3 sync --no-sign-request s3://ndmg-data/IPCAS4/IPCAS4-m2g-func-04-15-21/<subject_number> <your_local_direction>
 
-example: aws s3 sync --no-sign-request s3://ndmg-data/IPCAS4/IPCAS4-m2g-func-04-15-21/sub-0026190 .
+Example: 
+
+``aws s3 sync --no-sign-request s3://ndmg-data/IPCAS4/IPCAS4-m2g-func-04-15-21/sub-0026190 .``
 
 
 ======	==============================
-order	subject_number
+index	subject_number
 ======	==============================
 1    	sub-0026190
 2    	sub-0026191
