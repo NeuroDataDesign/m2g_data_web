@@ -28,7 +28,6 @@ Datasets in CoRR
    BNU1
    BNU2
    BNU3
-   DC1
    HNU1
    IACAS1
    IBATRT
@@ -41,12 +40,7 @@ Datasets in CoRR
    IPCAS7
    IPCAS8
    JHNU1
-   LMU1
-   LMU2
-   LMU3
-   MPG1
    MRN1
-   MRN1313
    NKI1
    NKI24
    NKIENH
@@ -56,14 +50,10 @@ Datasets in CoRR
    SWU2
    SWU3
    SWU4
-   UM1
    UPSM1
    Utah1
-   Utah2
    UWM1
    XHCUMS1
-   Templeton114
-   Templeton255	
 
 
 
