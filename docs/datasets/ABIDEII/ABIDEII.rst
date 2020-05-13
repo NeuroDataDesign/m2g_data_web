@@ -41,13 +41,13 @@ Datasets in ABIDEII
 
 
 
-================	=====================		======================
-Dataset				have d-MRI result     		have f-MRI result
-================	=====================		======================
-ABIDEII-BNI_1    	yes							yes
-ABIDEII-SDSU_1   	yes							yes
-ABIDEII-TCD_1   	yes							yes		
-================	=====================		======================
+================	=====================	======================
+Dataset				have d-MRI result     	have f-MRI result
+================	=====================	======================
+ABIDEII-BNI_1   	yes                  	yes
+ABIDEII-SDSU_1  	yes						yes
+ABIDEII-TCD_1   	yes                  	yes
+================	=====================	======================
 
 
 
