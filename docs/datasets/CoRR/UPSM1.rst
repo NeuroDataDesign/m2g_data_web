@@ -31,7 +31,7 @@ The most recently published snapshot can be downloaded from S3. This method is b
 	
 Example: 
 
-``aws s3 sync --no-sign-request s3://ndmg-data/UPSM_1/UPSM_1-m2g-func-04-15-20 .
+``aws s3 sync --no-sign-request s3://ndmg-data/UPSM_1/UPSM_1-m2g-func-04-15-20 .``
 
 
 

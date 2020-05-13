@@ -15,12 +15,6 @@ Utah  - University of Utah
 
 See http://fcon_1000.projects.nitrc.org/indi/CoRR/html/utah_1.html for the website of the original dataset
 
-**Sample Connectome** from BNU1-sub-0025866_ses-1-connectome
-
-
-.. image:: ../../_static/connectomic_pic/sub-0025866_ses-1_dwi_desikan_space-MNI152NLin6_res-2x2x2_connectome.png
-	:width: 400
-	:align: center
 
 
 All Data Download Instructions
@@ -28,19 +22,62 @@ All Data Download Instructions
 
 Download from S3
 
-The most recently published snapshot can be downloaded from S3. This method is best for larger datasets or unstable connections. This example uses AWS CLI: https://aws.amazon.com/cli/?nc1=h_ls/ ::
+The most recently published snapshot can be downloaded from S3. This method is best for larger datasets or unstable connections. This example uses AWS CLI: https://aws.amazon.com/cli/?nc1=h_ls/
 
 
-	aws s3 sync --no-sign-request s3://openneuro.org/ds000201 ds000201-download/
 
-(link above is fake, we will do it later)
+**Functional MRI result**::
+
+
+    aws s3 sync --no-sign-request s3://ndmg-data/Utah1/Utah1-m2g-func-04-15-20 <your_local_direction>
+	
+Example: 
+
+``aws s3 sync --no-sign-request s3://ndmg-data/Utah1/Utah1-m2g-func-04-15-20 .``
+
+
 
 
 Single Sample Download Instructions
 ----------------------------------------
 
-sub-000201   ::
-	**aws s3 sync --no-sign-request s3://openneuro.org/ds000201 ds000201-download/**
 
-(link above is fake, we will do it later)
+**Functional MRI single sample**::
+    
+    aws s3 sync --no-sign-request s3://ndmg-data/Utah1/Utah1-m2g-func-04-15-20/<subject_number> <your_local_direction>
 
+Example: 
+
+``aws s3 sync --no-sign-request s3://ndmg-data/Utah1/Utah1-m2g-func-04-15-20/sub-0026018 .``
+
+
+======	==============================
+index	subject_number
+======	==============================
+1    	sub-0026018
+2    	sub-0026019
+3    	sub-0026020
+4    	sub-0026021
+5    	sub-0026022
+6    	sub-0026023
+7    	sub-0026024
+8    	sub-0026025
+9		sub-0026026
+10    	sub-0026027
+11    	sub-0026028
+12    	sub-0026029
+13    	sub-0026030
+14    	sub-0026031
+15    	sub-0026032
+16    	sub-0026033
+17    	sub-0026034
+18    	sub-0026035
+19		sub-0026036
+20    	sub-0026037
+21    	sub-0026038
+22    	sub-0026039
+23    	sub-0026040
+24    	sub-0026041
+25    	sub-0026042
+26    	sub-0026043
+======	==============================
