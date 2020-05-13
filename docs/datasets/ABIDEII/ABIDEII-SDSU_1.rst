@@ -56,18 +56,37 @@ Single Sample Download Instructions
 
 **Diffusion MRI single sample**::
     
-    aws s3 sync \--\no-sign-request s3://ndmg-data/ABIDEII-SDSU_1/ABIDEII-SDSU_1-m2g-dwi-05-03-20-csa-det-native/<subject_number> <your_local_direction>
+    aws s3 sync --no-sign-request s3://ndmg-data/ABIDEII-SDSU_1/ABIDEII-SDSU_1-m2g-dwi-05-03-20-csa-det-native/<subject_number> <your_local_direction>
 
-Example: aws s3 sync --no-sign-request s3://ndmg-data/ABIDEII-SDSU_1/ABIDEII-SDSU_1-m2g-dwi-05-03-20-csa-det-native/sub-29011 .
+Example: aws s3 sync \--\no-sign-request s3://ndmg-data/ABIDEII-SDSU_1/ABIDEII-SDSU_1-m2g-dwi-05-03-20-csa-det-native/sub-29011 .
 
 =====	==============================
 index	subject_number
 =====	==============================
-1    	sub-29011
-26    	sub-29056
-27    	sub-29146
-28    	sub-29147
-29		sub-29149
+1    	sub-28854
+2    	sub-28858
+3    	sub-28862
+4    	sub-28863
+5    	sub-28867
+6    	sub-28868
+7    	sub-28870
+8    	sub-28877
+9		sub-28878
+10    	sub-28880
+11    	sub-28881
+12    	sub-28882
+13    	sub-28883
+14    	sub-28886
+15    	sub-28888
+16    	sub-28889
+17    	sub-28891
+18    	sub-28892
+19		sub-28893
+20    	sub-28894
+21    	sub-28895
+22    	sub-28900
+23    	sub-28902
+24    	sub-28904
 =====	==============================
 
 
@@ -83,6 +102,28 @@ Example: aws s3 sync --no-sign-request s3://ndmg-data/ABIDEII-SDSU_1/ABIDEII-SDS
 =====	==============================
 index	subject_number
 =====	==============================
-1    	sub-29011
-2    	sub-29014
-3    	sub-29016
+1    	sub-28854
+2    	sub-28858
+3    	sub-28862
+4    	sub-28863
+5    	sub-28867
+6    	sub-28868
+7    	sub-28870
+8    	sub-28877
+9		sub-28878
+10    	sub-28880
+11    	sub-28881
+12    	sub-28882
+13    	sub-28883
+14    	sub-28886
+15    	sub-28888
+16    	sub-28889
+17    	sub-28891
+18    	sub-28892
+19		sub-28893
+20    	sub-28894
+21    	sub-28895
+22    	sub-28900
+23    	sub-28902
+24    	sub-28904
+=====	==============================
