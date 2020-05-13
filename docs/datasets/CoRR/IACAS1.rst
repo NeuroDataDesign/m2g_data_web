@@ -11,41 +11,78 @@ IACAS1
 Overview
 -----------
 
+
 IACAS - Institute of Automation, Chinese Academy of Sciences
 
 See http://fcon_1000.projects.nitrc.org/indi/CoRR/html/iacas_1.html for the website of the original dataset
 
-**Sample Connectome** from BNU1-sub-0025866_ses-1-connectome
 
-
-.. image:: ../../_static/connectomic_pic/sub-0025866_ses-1_dwi_desikan_space-MNI152NLin6_res-2x2x2_connectome.png
-	:width: 400
-	:align: center
 
 
 All Data Download Instructions
 -------------------------------------
 
+
 Download from S3
 
-The most recently published snapshot can be downloaded from S3. This method is best for larger datasets or unstable connections. This example uses AWS CLI: https://aws.amazon.com/cli/?nc1=h_ls/.::
+The most recently published snapshot can be downloaded from S3. This method is best for larger datasets or unstable connections. This example uses AWS CLI: https://aws.amazon.com/cli/?nc1=h_ls/
 
 
-    aws s3 sync --no-sign-request s3://openneuro.org/ds000201 ds000201-download/
+**Functional MRI result**::
 
-(link above is fake, we will do it later)
+
+	aws s3 sync --no-sign-request s3://ndmg-data/IACAS_1/IACAS_1-m2g-func-04-15-20 <your_local_direction>
+	
+Example: 
+
+``aws s3 sync --no-sign-request s3://ndmg-data/IACAS_1/IACAS_1-m2g-func-04-15-20 .``
+
 
 
 Single Sample Download Instructions
 ----------------------------------------
 
-sub-000201   ::
+
+
+**Functional MRI single sample**::
     
-    aws s3 sync --no-sign-request s3://openneuro.org/ds000201 ds000201-download/
+    aws s3 sync --no-sign-request s3://ndmg-data/IACAS_1/IACAS_1-m2g-func-04-15-20/<subject_number> <your_local_direction>
 
-(link above is fake, we will do it later)
+Example: 
+
+``aws s3 sync --no-sign-request s3://ndmg-data/IACAS_1/IACAS_1-m2g-func-04-15-20/sub-0025464 .``
 
 
 
-
-
+=====	==============================
+index	subject_number
+=====	==============================
+1    	sub-0025457
+2    	sub-0025458
+3    	sub-0025459
+4    	sub-0025460
+5    	sub-0025461
+6    	sub-0025462
+7    	sub-0025463
+8    	sub-0025464
+9		sub-0025465
+10    	sub-0025466
+11    	sub-0025467
+12    	sub-0025468
+13    	sub-0025469
+14    	sub-0025470
+15    	sub-0025471
+16    	sub-0025472
+17    	sub-0025473
+18    	sub-0025474
+19		sub-0025475
+20    	sub-0025476
+21    	sub-0025477
+22    	sub-0025478
+23    	sub-0025479
+24    	sub-0025480
+25    	sub-0025481
+26    	sub-0025482
+27    	sub-0025483
+28    	sub-0025484
+=====	==============================
