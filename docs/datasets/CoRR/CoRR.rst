@@ -42,7 +42,6 @@ Datasets in CoRR
    JHNU1
    MRN1
    NKI1
-   NKI24
    NKIENH
    NYU1
    NYU2
@@ -60,7 +59,7 @@ Datasets in CoRR
 
 
 ================	====================	======================
-Dataset				Have d-MRI result		Have f-MRI result
+111					222						4444
 ================	====================	======================
 ABIDEII-BNI_1		yes						yes
 ABIDEII-SDSU_1		yes						yes
@@ -72,6 +71,29 @@ BNU2				yes						no
 BNU3				yes						yes
 HNU1				yes						yes
 MRN1				yes						yes
+IBATRT				yes						no
+IPCAS_1				yes						no
+IPCAS_2				yes						no
+IPCAS_3				yes						no
+IPCAS_4				yes						no
+IPCAS_5				yes						no
+IPCAS_6				yes						no
+IPCAS_7				yes						no
+IPCAS_8				yes						no
+JHNU				yes						no
+NKIENH				no						yes
+NKI1				no						yes
+NKI24				no						yes
+NYU1				yes						no
+NYU2				yes						no
+SWU1				yes						no
+SWU2				yes						no
+SWU3				yes						no
+SWU4				yes						yes
+UPSM				yes						no
+Utah1				yes						no
+UWM					yes						no
+XHCUMS				yes						yes
 ================	====================	======================
 
 
